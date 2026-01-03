@@ -165,7 +165,7 @@ export default function AuthPage({ onLoginSuccess, onBack }: AuthPageProps) {
                   <input
                     {...registerSignup('name', { required: true })}
                     type="text"
-                    placeholder="Alex"
+                    placeholder="Trg"
                     className="w-full rounded-lg border border-gray-300 bg-transparent py-2.5 pl-10 pr-4 text-sm focus:border-black focus:ring-1 focus:ring-black focus:outline-none transition-all"
                   />
                 </div>

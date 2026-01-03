@@ -8,7 +8,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { 
   Search, 
   MapPin, 
-  Briefcase, 
+  Briefcase,
   DollarSign,
   Clock,
   Building2,

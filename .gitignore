@@ -6,6 +6,13 @@ __pycache__/
 # Big files
 node_module/
 
+# Bỏ qua các file hệ thống máy tính
+.DS_Store
+Thumbs.db
+
+# Bỏ qua file môi trường chứa mật khẩu (nếu có)
+.env
+
 # C extensions
 *.so
 
