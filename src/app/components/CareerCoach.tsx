@@ -147,8 +147,7 @@ export function CareerCoach({ onNavigate, onLogout }: CareerCoachProps) {
                 </div>
               </div>
 
-              {/* Messages Area */}
-              {/* SỬA LỖI 2: min-h-0 và overflow-y-auto để scroll hoạt động đúng */}
+              {/* min-h-0 và overflow-y-auto để scroll hoạt động đúng */ }
               <div className="flex-1 overflow-y-auto p-4 bg-gray-50/50 min-h-0 custom-scrollbar">
                 <div className="space-y-6">
                   {messages.map((message) => (
@@ -248,7 +247,7 @@ export function CareerCoach({ onNavigate, onLogout }: CareerCoachProps) {
           </div>
 
           {/* Sidebar */}
-          {/* SỬA LỖI 4: Giới hạn chiều cao Sidebar và cho phép scroll nội bộ */}
+          {/* Giới hạn chiều cao Sidebar và cho phép scroll nội bộ */}
           <div className="space-y-4 lg:h-[calc(100vh-250px)] lg:overflow-y-auto pr-1 custom-scrollbar">
             {/* Conversation Topics */}
             <Card className="p-4 shadow-sm border-gray-200">
