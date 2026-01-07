@@ -355,7 +355,7 @@ export function JobMarketplace({ onNavigate, onLogout }: JobMarketplaceProps) {
             </Card>
 
             {/* Career Tips */}
-            <Card className="p-6 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+              <Card className="p-6 bg-blue-600 text-white">
               <div className="flex items-center gap-2 mb-3">
                 <TrendingUp className="w-5 h-5" />
                 <h3>Application Tip</h3>
