@@ -224,22 +224,16 @@ export default function AuthPage({ onLoginSuccess, onBack }: AuthPageProps) {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-3">
-          <button
-            type="button"
-            className="flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all cursor-pointer"
-          >
-            <GoogleIcon />
-            Google
-          </button>
-          <button
-            type="button"
-            className="flex items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white py-2.5 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-300 transition-all cursor-pointer"
-          >
-            <GitHubIcon />
-            GitHub
-          </button>
-        </div>
+{/* Đổi thẻ cha thành flex để căn giữa */}
+<div className="flex justify-center w-full">
+  <button
+    type="button"
+    className="flex w-full max-w-xs items-center justify-center gap-2 rounded-lg border border-gray-200 bg-white py-2.5 text-sm font-medium text-gray-700 transition-all hover:bg-gray-50 hover:border-gray-300 cursor-pointer"
+  >
+    <GoogleIcon />
+    Google
+  </button>
+</div>
 
         <p className="text-center text-xs text-gray-500">
           By continuing, you agree to <a href="#" className="underline hover:text-gray-900">Article</a> và <a href="#" className="underline hover:text-gray-900">Privacy policy</a>.
