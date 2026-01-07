@@ -8,7 +8,7 @@ import { JobMarketplace } from './components/JobMarketplace';
 import { Profile } from './components/Profile';
 import { LearningHub } from './components/LearningHub';
 
-// Thêm 'auth' vào danh sách các trang
+
 export type Page = 'landing' | 'auth' | 'dashboard' | 'cv-analyzer' | 'career-coach' | 'jobs' | 'profile' | 'learning';
 
 export default function App() {
