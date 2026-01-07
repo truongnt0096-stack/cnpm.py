@@ -298,7 +298,7 @@ export function Profile({ onNavigate, onLogout }: ProfileProps) {
               </TabsContent>
 
               <TabsContent value="premium" className="mt-6">
-                <Card className="p-6 bg-gradient-to-r from-blue-600 to-purple-600 text-white mb-6">
+                <Card className="p-6 bg-blue-600 text-white mb-6">
                   <h2 className="text-2xl mb-2">Upgrade to Premium</h2>
                   <p className="opacity-90">Unlock advanced AI features and accelerate your career growth</p>
                 </Card>
@@ -379,10 +379,10 @@ export function Profile({ onNavigate, onLogout }: ProfileProps) {
           <div className="space-y-6">
             {/* Profile Card */}
             <Card className="p-6 text-center">
-              <div className="w-24 h-24 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+              <div className="w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <User className="w-12 h-12 text-white" />
               </div>
-              <h3 className="text-xl mb-1">Alex Thompson</h3>
+              <h3 className="text-xl mb-1">ng van a</h3>
               <p className="text-sm text-gray-600 mb-3">Frontend Developer</p>
               <div className="flex items-center justify-center gap-2 mb-4">
                 <Badge>Free Plan</Badge>
